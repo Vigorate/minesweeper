@@ -6,7 +6,7 @@ import random
 path = "C:/Users/alexl/Desktop/e/"
 files = os.listdir(path)
 for file in files:
-	print(file)
+    print(file)
 disp_name = []
 for i in range(1, len(files) + 1):
     disp_name.append(i)
